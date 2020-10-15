@@ -7,7 +7,7 @@ Layout Template which will be used for form should have `iframeResizer.contentWi
 ```
 <!DOCTYPE html>
 <html>
-	<head>
+    <head>
         <base href="https://engage.invadosolutions.com" >
         <meta charset="utf-8"/>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -15,10 +15,10 @@ Layout Template which will be used for form should have `iframeResizer.contentWi
         <meta name="description" content="%%description%%"/>
         <title>%%title%%</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.2.11/iframeResizer.contentWindow.min.js" integrity="sha512-FOf4suFgz7OrWmBiyyWW48u/+6GaaAFSDHagh2EBu/GH/1+OQSYc0NFGeGeZK0gZ3vuU1ovmzVzD6bxmT4vayg==" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		%%content%%
-	</body>
+    </head>
+    <body>
+        %%content%%
+    </body>
 </html>
 ```
 
