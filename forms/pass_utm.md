@@ -59,7 +59,7 @@ What this code does:
 3. Script which creates iframe html tag with needed parameters, please update `PARDOT_FORM_URL`.
 
 Links:
-[Passing URL parameters from browser to iframe](https://help.salesforce.com/articleView?id=000317377&type=1&mode=1)
-[iframe-resizer cdn](https://cdnjs.com/libraries/iframe-resizer)
-[iframe-resizer documentation](http://davidjbradshaw.github.io/iframe-resizer/)
-[iframe-resizer basic setup](https://github.com/davidjbradshaw/iframe-resizer#typical-setup)
+- [Passing URL parameters from browser to iframe](https://help.salesforce.com/articleView?id=000317377&type=1&mode=1)
+- [iframe-resizer cdn](https://cdnjs.com/libraries/iframe-resizer)
+- [iframe-resizer documentation](http://davidjbradshaw.github.io/iframe-resizer/)
+- [iframe-resizer basic setup](https://github.com/davidjbradshaw/iframe-resizer#typical-setup)
