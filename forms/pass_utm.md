@@ -18,7 +18,8 @@ Layout Template which will be used for form should have `iframeResizer.contentWi
 	<body>
 		%%content%%
 	</body>
-</html>```
+</html>
+```
 
 ### Page where form will be displayed
 
@@ -47,7 +48,8 @@ Form donor page should contain code below:
 
  thisScript.parentElement.replaceChild(iframe, thisScript);
  iFrameResize( { log: true }, '.pardot-form-iframe' );
-</script>```
+</script>
+```
 
 What this code does:
 1. `<noscript>` part is a fallback for browsers where user disables javascript, in this case browser wouldn't pass UTM parameters.
