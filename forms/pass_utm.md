@@ -24,7 +24,7 @@ Layout Template which will be used for form should have `iframeResizer.contentWi
 
 ### Page where form will be displayed
 
-Form donor page should contain code below:
+Form recipient page should contain code below:
 
 ```
 <noscript>
