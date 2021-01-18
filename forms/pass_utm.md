@@ -14,7 +14,7 @@ Layout Template which will be used for form should have `iframeResizer.contentWi
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta name="description" content="%%description%%"/>
         <title>%%title%%</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.1/iframeResizer.min.js" integrity="sha512-ngVIPTfUxNHrVs52hA0CaOVwC3/do2W4jUEJIufgZQicmY27iAJAind8BPtK2LoyIGiAFcOkjO18r5dTUNLFAw==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.1/iframeResizer.contentWindow.js" integrity="sha512-5+HBQlT1izP2UxL213/uqaO9tIpPso52TedvIsOevDs6w/HNt0/KNlkYLgi8Ona7lPCBjMEWybiR/qqs2MgyEg==" crossorigin="anonymous"></script>
     </head>
     <body>
         %%content%%
