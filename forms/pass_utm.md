@@ -40,15 +40,15 @@ Form recipient page should contain code below:
 
     iframe.setAttribute('src', form + params);
     iframe.setAttribute('width', '100%');
-    iframe.setAttribute('style', 'border:0;width:1px;min-width:100%;');
+    iframe.setAttribute('style', 'border:0;min-width:100%;');
     iframe.setAttribute('class', 'pardot-form-iframe');
     iframe.setAttribute('height', 500);
     iframe.setAttribute('type', 'text/html');
     iframe.setAttribute('frameborder', 0);
     iframe.setAttribute('allowTransparency', 'true');
+    iframe.setAttribute('onload', "iFrameResize({log: false}, '.pardot-form-iframe')");
 
     thisScript.parentElement.replaceChild(iframe, thisScript);
-    iFrameResize( { log: false }, '.pardot-form-iframe' );
 </script>
 ```
 
